@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScript3.AllWebElements">
+      <class name="testScript3.Assertion">
         <methods>
+          <include name="assertFalseTest"/>
           <include name="initializeBrowser"/>
-          <include name="buttonDoubleClick"/>
         </methods>
-      </class> <!-- testScript3.AllWebElements -->
+      </class> <!-- testScript3.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
