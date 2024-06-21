@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScript3.Assertion">
+      <class name="testScript3.MultipleWindowHandling">
         <methods>
-          <include name="assertFalseTest"/>
           <include name="initializeBrowser"/>
+          <include name="multipleWindowHandleTest2"/>
         </methods>
-      </class> <!-- testScript3.Assertion -->
+      </class> <!-- testScript3.MultipleWindowHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
